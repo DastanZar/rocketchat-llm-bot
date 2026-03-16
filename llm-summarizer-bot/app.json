@@ -1,0 +1,25 @@
+{
+    "id": "bf612199-1645-47f7-8cb4-90447628d464",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.44.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Abhinav Singh",
+        "homepage": "https://github.com/DastanZar",
+        "support": "https://github.com/DastanZar"
+    },
+    "name": "LLM Summarizer Bot",
+    "nameSlug": "llm-summarizer-bot",
+    "classFile": "LlmSummarizerBotApp.ts",
+    "description": "A bot that uses an LLM to summarize long messages via slash command",
+    "slashCommands": [
+        {
+            "command": "summarize",
+            "i18nDescription": "app_summarize_description",
+            "i18nParamsExample": "app_summarize_params",
+            "description": "Summarize the provided text using LLM",
+            "params": "[text]"
+        }
+    ],
+    "implements": []
+}
